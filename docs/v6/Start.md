@@ -10,7 +10,7 @@ $ npm i -g @nestjs/cli
 $ nest new project-name
 ```
 
-## TypeScript Starter Project
+## TypeScript 스타터 프로젝트
 TypeScript Starter Project가 필요하다면 아래와 같이 다운로드 할 수 있습니다.
 ```
 $ git clone https://github.com/nestjs/typescript-starter.git project
