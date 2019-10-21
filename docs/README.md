@@ -32,3 +32,8 @@ $ nest new project-name
 ```
 $ npm i --save @nestjs/core @nestjs/common rxjs reflect-metadata
 ```
+
+## 한국어 문서에 기여하기
+자연스럽지 않은 문장이나 오타, 잘못된 내용, 부족한 설명이 있는 부분을 발견하셨나요? 아니면 이 문서에 내용을 추가하고 싶으신가요?
+
+[여기](https://github.com/Shin-JaeHeon/docs-nestjs-kr)에서 이 한국어 문서에 기여를 해주시면 감사하겠습니다.
