@@ -1,4 +1,4 @@
-# 첫 걸음부터 시작하는 Nest.js
+# 시작하기
 이 기사에서는 Nest의 **핵심 기본 사항**을 학습합니다. Nest 애플리케이션의 필수 구성 요소에 익숙해 지도록 입문 레벨에서 많은 기초를 다루는 기능을 갖춘 기본 CRUD 애플리케이션을 빌드합니다.
 ## 언어
 우리는 **TypeScript**를 좋아하지만 무엇보다도 **Node.js**를 좋아합니다. 그렇기 때문에 Nest는 TypeScript 및 **순수 JavaScript**와 호환됩니다. Nest는 최신 언어 기능을 활용하므로 바닐라 JavaScript와 함께 사용하려면 Babel 컴파일러가 필요합니다.
@@ -12,7 +12,7 @@
 
 Nest CLI를 사용하여 새 프로젝트를 설정하는 것은 매우 간단합니다. npm을 설치하면 OS 터미널에서 다음 명령을 사용하여 새 Nest 프로젝트를 만들 수 있습니다.
 
-```bash
+```command
 $ npm i -g @nestjs/cli
 $ nest new project-name
 ```
@@ -72,7 +72,7 @@ const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
 ## 애플리케이션 시작
 설치 프로세스가 완료되면 OS 명령 프롬프트에서 다음 명령을 실행하여 인바운드 HTTP 요청을 수신하는 애플리케이션을 시작할 수 있습니다.
-```bash
+```command
 $ npm run start
 ```
 이 명령은 `src/main.ts` 파일에 정의 된 포트로 수신하는 HTTP 서버를 시작합니다. 응용 프로그램이 실행되면 브라우저를 열고 `http:// localhost:3000/`로 이동하세요. `Hello World` 메시지가 보일 것입니다!
