@@ -1,4 +1,13 @@
-# Nest.js
+# Nest.js 한국어 문서
+Nest.js의 한국어 문서입니다. <br>
+음역 및 의역이 일부 포함되어있습니다.
+
+## 한국어 문서에 기여하기
+자연스럽지 않은 문장이나 오타, 잘못된 내용, 부족한 설명이 있는 부분을 발견하셨나요? 아니면 이 문서에 내용을 추가하고 싶으신가요?
+
+[여기](https://github.com/Shin-JaeHeon/docs-nestjs-kr)에서 이 한국어 문서에 기여를 해주시면 감사하겠습니다.
+
+## 소개
 Nest는 효율적이고 확장 가능한 Node.js 서버 애플리케이션을 구축하기 위한 프레임워크입니다. 프로그레시브 JavaScript를 사용하고 OOP(Object Oriented Programming), FP(Functional Programming) 및 FRP(Functional Reactive Programming)의 요소를 결합하여 TypeScript를 지원합니다. 아직은 순수 JavaScript로 개발할 수 있습니다. 
 
 Nest는 Express(기본값) 및 Fastify와 같은 강력한 HTTP Server 프레임워크를 사용합니다. Nest는 이러한 프레임워크의 추상화를 제공하고 있지만, API에 직접 접근하는 것도 가능합니다. 따라서 각 플랫폼에서 사용할 수 있는 무수히 많은 타사 모듈을 쉽게 사용할 수 있습니다.
@@ -33,7 +42,5 @@ $ nest new project-name
 $ npm i --save @nestjs/core @nestjs/common rxjs reflect-metadata
 ```
 
-## 한국어 문서에 기여하기
-자연스럽지 않은 문장이나 오타, 잘못된 내용, 부족한 설명이 있는 부분을 발견하셨나요? 아니면 이 문서에 내용을 추가하고 싶으신가요?
 
-[여기](https://github.com/Shin-JaeHeon/docs-nestjs-kr)에서 이 한국어 문서에 기여를 해주시면 감사하겠습니다.
+### 한국어 ㅁ

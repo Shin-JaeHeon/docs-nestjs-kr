@@ -19,9 +19,9 @@ $ nest new project-name
 
 프로젝트 디렉토리가 생성되면, 노드 모듈과 상용구 파일이 설치되며, `src/` 디렉토리가 생성되어 여러 코어 파일로 채워집니다.
 ```
-src <br>
- ├── app.controller.ts <br>
- ├── app.module.ts <br>
+src
+ ├── app.controller.ts
+ ├── app.module.ts 
  └── main.ts
 ```
 
